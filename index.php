@@ -13,10 +13,7 @@ if(isset($_SESSION['user_data'])){
 <html>
 <head>
 	<title></title>
-	<!-- Including Bootstrap Css -->
-	<!-- Latest compiled and minified CSS -->
 	<?php include './assets/css.php'; ?>
-	<!-- Adding Custom Css -->
 	<style type="text/css">
 		.container{
 			margin-top: 30px;
@@ -64,10 +61,6 @@ if(isset($_SESSION['user_data'])){
 	</style>
 </head>
 <body>
-<!-- Am Using Bootstrap Css for Designing My web page -->
-<!-- Let's Create Login part -->
-<!-- Now Adding Bootstrap Login Part Design -->
-<!-- Now Login Page Done -->
    <div class="container">
    	<div class="row">
    		<?php if(isset($_REQUEST['error'])){ ?>

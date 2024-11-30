@@ -4,4 +4,3 @@ if(!$con){
 	die("Failed to Establish Database Connection");
 
 }
-	//connected database
